@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+
+.navbar-wrapper{
+  background-color: #97cece;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-wrapper .logo h1 a{
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-wrapper ul li{
+  display: inline;
+}
+
+.menu-wrapper ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 4px 8px;
+  margin: 0 2px;
+  background-color: transparent;
+  transition: .3s all ease-in-out;
+}
+
+.menu-wrapper ul li a:last-child{
+  margin-right: 0;
+}
+
+.menu-wrapper ul li a:hover{
+  background-color: white;
+  color: black;
+}
