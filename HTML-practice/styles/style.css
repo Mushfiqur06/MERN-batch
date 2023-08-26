@@ -1,58 +1,129 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background-color: white;
   font-size: 16px;
   line-height: 22px;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
-ul li{
+ul li {
   list-style-type: none;
 }
 
-.navbar-wrapper{
+.container-fluid {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+}
+.section-header h4 {
+  font-size: 24px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-header h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.navbar {
   background-color: #97cece;
-  padding: 30px;
+  display: block;
+  padding: 30px 0;
+}
+.navbar .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
 }
-
-.navbar-wrapper .logo h1 a{
+.navbar .wrapper .logo h1 a {
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
   color: white;
 }
-
-.menu-wrapper ul li{
+.navbar .wrapper .menu-wrapper ul li {
   display: inline;
 }
-
-.menu-wrapper ul li a{
+.navbar .wrapper .menu-wrapper ul li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
   padding: 4px 8px;
   margin: 0 2px;
   background-color: transparent;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
-
-.menu-wrapper ul li a:last-child{
-  margin-right: 0;
-}
-
-.menu-wrapper ul li a:hover{
+.navbar .wrapper .menu-wrapper ul li a:hover {
   background-color: white;
   color: black;
 }
+.navbar .wrapper .menu-wrapper ul li a:last-child {
+  margin-right: 0;
+}
+
+.slider-section {
+  padding: 40px 0;
+}
+.slider-section img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about-section {
+  background-color: rgb(249, 249, 249);
+  padding: 60px 0;
+  text-align: center;
+}
+.about-section .about-info p {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.service-section {
+  padding: 100px 0;
+}
+.service-section .service-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.service-section .service-wrapper .single-service {
+  background-color: rgb(249, 249, 249);
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.service-section .service-wrapper .single-service .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #97cece;
+  margin: 0 auto;
+}
+.service-section .service-wrapper .single-service .info {
+  margin: 20px 0;
+  text-align: center;
+}
+.service-section .service-wrapper .single-service .info h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.testimonial-section {
+  padding: 100px 0;
+  background-color: skyblue;
+}/*# sourceMappingURL=style.css.map */
