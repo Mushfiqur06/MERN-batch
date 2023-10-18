@@ -1,0 +1,49 @@
+.container {
+  width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px #0000001f;
+}
+
+.todos_wrapper {
+  padding-top: 20px;
+  border-top: 1px solid #0000001f;
+}
+
+.todo {
+  border: 1px solid #0000001f;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 4px;
+}
+.search_wrapper {
+  padding-bottom: 20px;
+}
+.search_wrapper input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0000001f;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.search_wrapper input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.input_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.submit_btn {
+  margin-left: 40px;
+  background-color: bisque;
+  border-radius: 10px;
+  border: 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
